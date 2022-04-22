@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHUb]()
-- Live Site URL: [Netlify]()
+- Solution URL: [GitHUb](https://github.com/S-Devoe/space-tourism.git)
+- Live Site URL: [Netlify](https://space-tourism-fe.netlify.app/)
 
 
 ### Built with
