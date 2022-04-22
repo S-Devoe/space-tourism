@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;1,500;1,600&family=Bellefair&display=swap");
+
+*,
+*::before,
+*::after,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body, html{
+  height: 100%;
+  width: 100%;
+}
+
+.test a{
+  display: none;
+}
+
+@media screen and (max-width: 765px) {
+
+  .nav{
+  visibility: hidden;
+  display: none;
+  transform: translateX(50rem);
+  transition: 250ms ease-out;
+  opacity: 0;
+  }
+
+  .nav.show-nav {
+    display: block;
+    visibility: visible;
+    transform: translateX(0);
+    transition: 250ms ease-in;
+    opacity: 1;
+  
+  }
+}
+
